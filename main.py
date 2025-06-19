@@ -37,7 +37,7 @@ def get_client_ip():
 
 # Function to check if the client IP is allowed
 def is_allowed_ip():
-    allowed_ips = ['192.168.0.0/24', '127.0.0.1', '175.140.188.177', '175.138.188.105']
+    allowed_ips = ['192.168.0.0/24', '127.0.0.1', '175.140.188.177', '175.138.188.105', '175.139.26.208']
     client_ip = get_client_ip()
     print(f"Client IP: {client_ip}")  # Debugging: Log the detected client IP
 
